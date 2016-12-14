@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.curtainOne {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #230226;
+  width: 50%;
+  height: 1000px;
+  z-index: 4;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #fff;
+  animation: curtain 2s ease-out 3s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; }
+
+@-webkit-keyframes curtain {
+  from {
+    width: 50%; }
+  to {
+    width: 0%; } }
+
+@keyframes curtain {
+  from {
+    width: 50%; }
+  to {
+    width: 0; } }
+
+.curtainTwo {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #230226;
+  width: 50%;
+  height: 1000px;
+  z-index: 3;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fff;
+  animation: curtain 2s ease-out 3s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; }
+
+@-webkit-keyframes curtain {
+  from {
+    width: 50%; }
+  to {
+    width: 0%; } }
+
+@keyframes curtain {
+  from {
+    width: 50%; }
+  to {
+    width: 0; } }
+
+.content {
+  margin: 150px 150px; }
+
+.sectOne {
+  background-color: rgba(219, 85, 105, 0.6);
+  height: 200px;
+  width: 100%; }
+
+.sectOne p {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px; }
+
+.sectOne a:link {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+.sectOne a:hover {
+  color: #454960; }
+
+.sectOne a:visited {
+  text-decoration: line-through;
+  color: #000; }
+
+.sectThree {
+  background-color: #e2e2e2;
+  height: 200px;
+  width: 100%; }
+
+.sectThree p {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 90px; }
+
+.sectTwo {
+  background-color: rgba(141, 45, 150, 0.7);
+  height: 200px;
+  width: 100%; }
+
+.sectTwo p {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 90px; }
+
+.sectFour {
+  background-color: rgba(102, 0, 0, 0.6);
+  height: 200px;
+  width: 100%; }
+
+.sectFour p {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 90px; }
+  
+@media only screen (max-device-width:550px;)
+
+* {margin:0;
+    padding:0;}
+    
+.content {
+   margin:0; 
+   padding:0;
+   height:100%;
+   width:100%;
+}
+
+
